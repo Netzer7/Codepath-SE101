@@ -7,3 +7,6 @@ def buy_sell_stocks(prices):
             if currentDiff > maxDiff:
                 maxDiff = currentDiff
     return maxDiff
+
+print(buy_sell_stocks([7,1,5,3,6,4]))
+print(buy_sell_stocks([7,6,4,3,1]))
